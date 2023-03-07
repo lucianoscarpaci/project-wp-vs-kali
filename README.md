@@ -17,16 +17,15 @@ Time spent: **X** hours spent in total
 - [X] Affected source code:
   - [Link 1](https://klikki.fi/wordpress-core-stored-xss)
   
-### 2. (Required) Vulnerability Name or ID
+### 2. (Required) XSS vulnerability in Page's Edit-page
 
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+- [X] Summary: 
+  - Vulnerability types: XSS
+  - Tested in version: 4.2.2
+  - Fixed in version: 4.7.1
+- [X] GIF Walkthrough: ![](exploit2.gif)
+- [X] Steps to recreate: Go to the post title and paste this code ``` <img src="#" ONERROR="alert('Hacked!')"/> ```
+
 
 ### 3. (Required) Vulnerability Name or ID
 
