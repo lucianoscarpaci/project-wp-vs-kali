@@ -1,6 +1,6 @@
 # Project 7 - WordPress Pen Testing
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
@@ -25,7 +25,7 @@ Time spent: **X** hours spent in total
   - Fixed in version: 4.7.1
 - [X] GIF Walkthrough: ![](exploit2.gif)
 - [X] Steps to recreate: Go to the post title and paste this code ``` <img src="#" ONERROR="alert('Hacked!')"/> ```
-- [X] Affected source code: 
+- [] Affected source code: 
 
 
 ### 3. (Required) XSS vulnerability in comment section using SVG onload
@@ -36,48 +36,19 @@ Time spent: **X** hours spent in total
   - Fixed in version: 4.7.0
 - [X] GIF Walkthrough: ![](exploit3.gif)
 - [X] Steps to recreate: comment on a post this code: ```<svg/onload=alert('Hacked!')>```
-- [X] Affected source code: 
+- [] Affected source code: 
 
-### 4. (Optional) Vulnerability Name or ID
-
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-
-### 5. (Optional) Vulnerability Name or ID
-
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
-
-## Assets
-
-List any additional assets, such as scripts or files
 
 ## Resources
 
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/)
 
-GIFs created with  ...
-<!-- Recommended GIF Tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
-
 ## Notes
 
-Describe any challenges encountered while doing the work
+When i was attempting to exploit the wordpress vulnerabilities, I found that the
+exploits were similar to ones found online. However, there were some differences
+in my own implementation compared to those found online. My implementation is original because i have tried attempting this many times.
 
 ## License
 
