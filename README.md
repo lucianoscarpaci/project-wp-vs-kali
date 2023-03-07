@@ -25,18 +25,18 @@ Time spent: **X** hours spent in total
   - Fixed in version: 4.7.1
 - [X] GIF Walkthrough: ![](exploit2.gif)
 - [X] Steps to recreate: Go to the post title and paste this code ``` <img src="#" ONERROR="alert('Hacked!')"/> ```
+- [X] Affected source code: 
 
 
-### 3. (Required) Vulnerability Name or ID
+### 3. (Required) XSS vulnerability in comment section using SVG onload
 
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+- [X] Summary: 
+  - Vulnerability types: XSS
+  - Tested in version: 4.2.2
+  - Fixed in version: 4.7.0
+- [X] GIF Walkthrough: ![](exploit3.gif)
+- [X] Steps to recreate: comment on a post this code: ```<svg/onload=alert('Hacked!')>```
+- [X] Affected source code: 
 
 ### 4. (Optional) Vulnerability Name or ID
 
