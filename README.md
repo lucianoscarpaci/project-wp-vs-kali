@@ -6,16 +6,16 @@ Time spent: **X** hours spent in total
 
 ## Pen Testing Report
 
-### 1. (Required) Vulnerability Name or ID
+### 1. (Required) Authenticated Stored Cross-Site Scripting (XSS)
 
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+- [X] Summary: 
+  - Vulnerability types: XSS
+  - Tested in version: 4.2.2
+  - Fixed in version: 4.3.2
+- [X] GIF Walkthrough: ![](exploit1.gif)
+- [X] Steps to recreate: Become administrator aka "hacker" account, then use the exploit by inserting this malicious script into the post: ```<a href="[caption code=">]</a><a title=" onmouseover=alert('Pwned!')  ">link</a>```
+- [X] Affected source code:
+  - [Link 1](https://klikki.fi/wordpress-core-stored-xss)
   
 ### 2. (Required) Vulnerability Name or ID
 
